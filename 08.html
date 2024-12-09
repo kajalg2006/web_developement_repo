@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>forms in html</title>
+    <!-- Here we have learnt about form that we fill to registister something like forms first thing we done in starting is used form tag we is use for submitting the data to the backend <form action=""></form> 
+    then we use input tag which will help user to provide the information of them <input type="text">
+    inside input we have name used to recongnize the tage we are using 
+    we have use cheakbox and radio botton like things and more like select, option, textarea ,submit ,label and you can see  -->
+</head>
+
+<body>
+    <h2>Html form</h2>
+    <form action="backend.php">
+        <label for="name">Name:</label>
+
+        <div>
+             <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            role: <input type="text" name="myRole">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="myEmail">
+        </div>
+
+        <br>
+        <div>
+            date: <input type="date" name="mydate ">
+        </div>
+        <br>
+        <div>
+            color: <input type="color" name="my color">
+        </div>
+        <br>
+        <div>
+            roll number<input type="number" name="myrollnumber">
+        </div>
+        <br>
+        <div>
+          <label for="car">car</label>
+          <select name="mycar" id="car">
+          <option value="ind">indica</option>
+          <option value="swf">swift</option>
+          </select>
+        </div>
+        <br>
+        <div>
+            are you agree: <input type="checkbox" name="mycheakbox">
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="mygender"> Female<input type="radio" name="mygender">
+        </div>
+        <br>
+        write about your jee journey: <br><textarea name="mytext"  cols="30" rows="10"></textarea>
+        <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset">
+        </div>
+    </form>
+
+</body>
+
+</html>
